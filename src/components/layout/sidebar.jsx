@@ -1,0 +1,55 @@
+import { navItems, collapsedNavItems } from "../../utils/constants";
+import { Link } from "react-router-dom";
+import { useSidebar } from "../../context/SidebarContext";
+
+const Sidebar = () => {
+  const { isCollapsed } = useSidebar();
+
+
+  //* Navbar küçülürse
+
+  if (isCollapsed) {
+    return (
+      <aside className="w-20 h-[calc(100vh-56px)] overflow-y-auto sticky top-14">
+        <div className="py-3">
+          
+          {collapsedNavItems.map((item, key) => (
+            <Link to={item.paht} key={key} className="flex flex-col items-center justify-center py-4 px-2 mx-2 cursor-pointer rounded-lg transition hover:bg-grey">
+              <span className="text-xl mb-1"> {item.icon} </span>
+              <span className="text-[10px] text-center leading-tight">{item.name}</span>
+            </Link>
+          ))}
+        </div>
+      </aside>
+    );
+  }
+
+  //* Navbar büyükken
+  return (
+    <aside className="w-60 h-[calc(100vh-56px)] overflow-y-auto sticky top-14">
+      <div className="py-3">
+        {navItems.map((categroy, key) => (
+          <div key={key} className="border-b border-grey py-4 px-3">
+            {categroy.title && (
+              <h2 className="font-semibold mb-2">{categroy.title}</h2>
+            )}
+
+            <div>
+              {categroy.items.map((item, key) => (
+                <Link key={key}
+                  href={item.path}
+                  className="flex gap-6 items-center py-2 px-2 hover:bg-[#272727] cursor-pointer rounded-lg"
+                >
+                  <span className="text-2xl mb-2">{item.icon}</span>
+                  <span className="whitespace-nowrap">{item.name}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </aside>
+  );
+};
+
+export default Sidebar;
