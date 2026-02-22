@@ -1,16 +1,68 @@
-# React + Vite
+# 🎬 YouTube Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="public/youtube.png" width="120" />
+</p>
 
-Currently, two official plugins are available:
+Modern React ve Vite kullanılarak geliştirilmiş, YouTube arayüzünü temel alan dinamik ve responsive bir video platformu klonudur.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Proje Özellikleri
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Video arama sistemi  
+- 🎥 Video detay sayfası  
+- 📺 İlgili videolar listesi  
+- 💬 Yorumlar bölümü  
+- 📊 Görüntülenme ve beğeni bilgileri  
+- ⚡ Dinamik API veri çekme  
+- 📱 Responsive tasarım  
+- ⏳ Loading ve hata durumu yönetimi  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Kullanılan Teknolojiler
+
+- ⚛️ React  
+- ⚡ Vite  
+- 🔁 React Router DOM  
+- 🌐 Axios  
+- 🎨 Tailwind CSS  
+- 🧠 Context API  
+- 🔢 Millify  
+- 🎭 React Icons  
+
+---
+
+## 📂 Proje Yapısı
+
+- 📁 components → UI bileşenleri  
+- 📁 pages → Sayfa yapıları (Feed, Detail, Search)  
+- 📁 context → Global state yönetimi  
+- 📁 utils → API ve yardımcı fonksiyonlar  
+
+---
+
+## 🔌 API Entegrasyonu
+
+- 📡 Video listesi çekme  
+- 📄 Video detay bilgisi  
+- 👤 Kanal bilgileri  
+- 💬 Yorum verileri  
+- 🔗 İlgili videolar  
+
+Tüm API işlemleri Axios ile yönetilmektedir.
+
+---
+
+## 🎯 Bu Projede Pratik Edilen Konular
+
+- 🧩 Component bazlı mimari  
+- 🔄 State ve veri yönetimi  
+- 🔗 API entegrasyonu   
+- 📐 Responsive tasarım prensipleri
+  
+
+## 👨‍💻 Geliştirici
+
+GitHub: https://github.com/Bsr0276
