@@ -10,9 +10,9 @@ const App = () => {
     <BrowserRouter>
       <div className="min-h-screen">
         <Header />
-        <div className="flex gap-5 w-full">
+        <div className="flex  w-full">
           <Sidebar />
-          <main className="flex-1 w-full overflow-x-auto overflow-x-hidden">
+          <main className="flex-1 w-full overflow-y-auto overflow-x-hidden">
             <Routes>
               <Route path="/" element={<Feed />} />
               <Route path="/watch" element={<Detail />} />

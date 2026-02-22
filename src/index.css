@@ -32,6 +32,12 @@
   .icon {
     @apply p-2 hover:bg-grey rounded-full transition;
   }
+  .sm-hidden {
+    @apply hidden sm:flex items-center justify-center;
+  }
+  .page {
+    @apply h-[calc(100vh-56px)] overflow-y-auto w-full flex-1 py-6 px-4;
+  }
 }
 
 /* Scrollbar Sitilleri*/
@@ -51,4 +57,13 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555555;
+}
+
+.srollbar-hide {
+  stroke-width: none;
+  -ms-overflow-style: none;
+}
+
+.srollbar-hide-webkit-scrollbar {
+  display: none;
 }
