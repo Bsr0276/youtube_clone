@@ -6,7 +6,7 @@
 
 ## 📸 Project Preview
 
-![Project Preview](./preview.gif)
+
 
 Modern React ve Vite kullanılarak geliştirilmiş, YouTube arayüzünü temel alan dinamik ve responsive bir video platformu klonudur.
 
