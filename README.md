@@ -4,6 +4,10 @@
   <img src="public/youtube.png" width="120" />
 </p>
 
+## 📸 Project Preview
+
+![Project Preview](./preview.gif)
+
 Modern React ve Vite kullanılarak geliştirilmiş, YouTube arayüzünü temel alan dinamik ve responsive bir video platformu klonudur.
 
 ---
