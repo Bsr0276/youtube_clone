@@ -6,6 +6,7 @@
 
 ## 📸 Project Preview
 
+![ezgif com-video-to-gif-converter (2)](https://github.com/user-attachments/assets/cfec75a2-dd6d-4c79-bc9b-85337f305156)
 
 
 Modern React ve Vite kullanılarak geliştirilmiş, YouTube arayüzünü temel alan dinamik ve responsive bir video platformu klonudur.
